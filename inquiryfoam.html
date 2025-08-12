@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="css/inq.css">
+	<link rel="stylesheet" href="css/header.css">
+	
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Wedding Inquiry Form</title>
+</head>
+<body>
+   <header>
+    
+
+    
+    <div class="logo">
+      <img src="Images/15.jpg" alt="Wedding Logo">
+    </div>
+   
+
+
+   
+   
+ 
+  </header>
+    <div class="form-container">
+	
+	
+	
+        <h1>Wedding Inquiry Form</h1>
+        <form action="inquiry.php" method="post">
+		
+		
+		
+            <label for="name">Your Name:</label>
+            <input type="text"  class="form-control" id="name" name="Name" required>
+			
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+			
+			<label for="Phone">Phone Number:</label>
+            <input type="Phone" id="Phone" name="Phone" required>
+
+            <label for="date">Ceremony Date:</label>
+            <input type="date" id="date" name="date" required>
+			
+
+            <label for="time">Ceremony Time:</label>
+            <input type="time" id="time" name="time">
+
+            <label for="city">Ceremony City:</label>
+            <input type="city" id="city" name="city" required>
+			
+			<label for="venue">Ceremony Venue:</label>
+            <input type="venue" id="venue" name="venue" required>
+			
+			<label for="additional">Additional Information:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+<br>
+            <button type="submit" name="sub">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

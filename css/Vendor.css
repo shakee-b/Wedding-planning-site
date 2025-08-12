@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"montserrat",sans-serif;
+}
+.Vendors{
+	padding:40px 0;
+	background:url(Images/back3.jpg);
+
+	text-align:center;
+	 background-size: cover;
+    background-attachment:fixed;
+   
+}
+.inner{
+	max-width:1200px;
+	margin:auto;
+	overflow:hidden;
+	padding:0 20px;
+}
+.border{
+	width:160px;
+	height:5px;
+	background:#6ab04c;
+	margin:26px auto;
+	
+}
+.row{
+
+	flex-wrap:wrap;
+	justify-content:center;
+
+  display:flex;
+}
+.col{
+	box-sizing:border-box;
+	  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.vendorbox{
+	background:	#E5E8E8;
+	padding:50px;
+	
+}
+.vendorbox img{
+	width:320px;
+	height:320px;
+	
+	float:left;
+}
+.name{
+	font-size:20px;
+	text-transform:uppercase;
+	margin:20px 0;
+}
+.stars{
+	color:#F4D03F;
+	margin-bottom:20px;
+}
+h1{
+	font-size:50px;
+	text-align:center;
+}
+.cols{
+	flex:100%;
+	padding: 20px;
+
+
+}
+.Vname{
+	font-size:20px;
+    text-align:left;
+ text-indent:20px;
+
+}
+.type{
+font-size:25px;
+	text-transform:uppercase;
+	margin:20px 0;
+	 text-align:center;
+}
+.imag1 img{
+	width:100%;
+	height:100%;
+	
+}
+p{
+	font-size:18px;
+    text-align:center;
+font-family:"Times New Roman",sans-serif;
+text-indent:40px;
+justify-content:center;
+ display:flex;
+}
+.btnVendor{
+	
+	color:white;
+	background-color:#2596be;
+	width:25%;
+	height:50px;
+	outline:none;
+	border:none;
+	font-size:18px;
+float:center;
+
+}
+.btnVendor:hover{
+	width:27%;
+	
+}
+.popup{
+	width:400px;
+	background:white;
+	border-radius:6px;
+	position:absolute;
+	top:0;
+	left:50%;
+	transform:translate(-50%,-50%) scale(0.1);
+	text-align:center;
+	padding:0 30px 30px;
+	color:#333;
+	visibility:hidden;
+	transition:transform 0.4s,top 0.4s;
+}
+.open-popup{
+	visibility:visible;
+	top:160%;
+	transform:translate(-50%,-50%) scale(1);
+}
+	
+}
+.popup img{
+	width:50%;
+	margin-top:30px;
+	margin-left:50px;
+	border-radius:100%;
+	box-shadow:0 2px 5px rgba(0,0,0,0.2);
+	
+}
+.popup h2{
+	font-size:30px;
+	font-weight:500;
+	margin:50px 0px 10px ;
+	
+}
+.popup button{
+	width:100%;
+	margin-top:50px;
+	padding:10px 0;
+	color:#fff;
+	background:#6fd649;
+	border:0;
+	outline:none;
+	font-size:18px;
+	border-radius:4px;
+	cursor:pointer;
+	box-shadow:0 5px 5px rgba(0,0,0,0.2);
+}

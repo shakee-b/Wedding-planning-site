@@ -1,0 +1,129 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+	background:url('Images/hhh.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+	
+	
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+	
+	
+}
+
+ h1{
+	position:relative;
+    font-size: 40px;
+    color:black;
+	text-align: center;
+	-webkit-text-stroke:0.1jvw #660066;
+	text-transform:uppercase;
+	font-family:system-ui;
+}
+
+	
+
+ p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+	font-family:cursive;
+	color:#000000;
+	
+}
+
+/* Services Styles */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+	
+}
+
+.service-box {
+    background-color:;
+    color:black;
+    border-radius: 15px;
+    box-shadow: 0 2px 16px ;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+	height:700px;
+	
+}
+
+
+.service-icon img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.service-box h2 {
+ 
+    font-size: 24px;
+    color: black;
+}
+
+.service-box p {
+	 
+    font-size: 19px;
+    color: black;
+	text-align:justify;
+}
+.service-box li{
+	font-size:19px;
+	color:black;
+	
+}
+
+	
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #f9c5d1;
+    padding: 20px 0;
+    color: #333;
+	margin-top:70px;
+}
+.service-box ul{
+	color: black;
+	font-size:18px;
+	text-align:justify;
+	
+	
+}
+.service-box a{
+	background-color:green;
+	color:white;
+	padding:15px 20px;
+	display:block;
+	text-align:center;
+	margin:5px 150px;
+	
+}
+.service-box:hover{
+	background-color:	 #ffe6e6;
+	color:#white;
+	cursor:pointer;
+	transform:scale(1.03);
+	transition:all is ease;
+}

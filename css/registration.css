@@ -1,0 +1,155 @@
+
+body{
+	background:url(Images/ring.jpg) no-repeat;
+	   background-size: cover;
+    background-attachment:fixed;
+
+}
+.page{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 1700px;
+    margin: 200px 0;
+    border-radius: 25px;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+	font-family:"Arial",sans-serif;
+	font-size:20px;
+
+
+}
+h1{
+	margin:20px;
+	color:#5c5747;
+	text-align:center;
+	font-size:45px;
+	position:relative;
+	font-family:"poppins",sans-serif;
+
+}
+#lname,#num,#mail,#pass,#repass,#fname{
+position: relative;
+ margin:20px 10px;
+	font-size:20px;
+width:400px;
+height:30px;
+	width:110%;
+	background:transparent;
+	border-top:2px #fff;
+		font-family:"Times New Roman",Times,serif;
+
+
+
+}
+
+
+#date{
+		font-size:20px;
+		width:110%;
+	background:transparent;
+	border-top:2px #fff;
+	height:30px;
+		position: relative;
+ margin:20px 10px;
+	font-family:"Times New Roman",Times,serif;
+}
+#btn{
+	color:#fff;
+	background:#7d7868;
+	width:70%;
+	height:50px;
+	border-radius:100px;
+	outline:none;
+	border:none;
+	font-size:25px;
+	cursor:pointer;
+	box-shadow:3px 0 10px;
+	font-family:"poppins",sans-serif;
+ justify-content: center;
+    align-items: center;
+margin-left:70px;
+transition:0.3s;
+
+}
+#btn:hover{
+width:80%;
+	background:green;
+	
+}
+#gen{
+	margin-right:5px;
+	margin-left:40px;
+	text-align:center;
+	font-family:"poppins",sans-serif;
+}
+#type{
+		margin-right:5px;
+	margin-left:70px;
+	text-align:center;
+	font-family:"poppins",sans-serif;
+}
+
+h2{
+	color:#252e3d;
+	font-size:55px;
+	font-family:"Times New Roman",Times,serif;
+}
+#add{
+	position: relative;
+ margin:20px 10px;
+	font-size:40px;
+width:400px;
+height:50px;
+	width:110%;
+	background:transparent;
+	border-top:2px #fff;
+		font-family:"Times New Roman",Times,serif;
+	font-size:20px;
+}
+hr{
+	   border:black solid 2px;
+}
+footer{
+	font-size:30px;
+	text-align:center;
+}
+
+#fname-error,#lname-error,#add-error,#num-error,#mail-error,#pass-error,#repass-error{
+  color:red;
+  font-size:14px;
+  font-style:italic;
+}
+i{
+	color:green;
+}
+button{
+	color:black;
+	background:transparent;
+margin-right:5px;
+	margin-left:80px;
+	text-align:center;
+	font-family:"poppins",sans-serif;
+	font-size:20px;
+	border-radius:100px;
+	transition:0.4s;
+	outline:none;
+	border:none;
+	height:3%;
+	width:30%;
+
+}
+button:hover{
+	background:linear-gradient(to right,#ff105f,#ffad06);
+
+}
+#type,#photo{
+	font-size:15px;
+}

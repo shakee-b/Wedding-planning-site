@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/foo.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+  </head>
+  <body>
+   <header>
+    
+    <div class="logo">
+      <img src="Images/15.jpg" alt="Wedding Logo">
+    </div>
+   
+   <div class ="navigation">
+		     <div class="navigation-items">
+	 <a href="home.html"> Home</a>
+			 <a href="aboutus.html">About us</a>
+			 <a href="Our Services.html">Our services</a>
+			 <a href="gallery.html">Gallery</a>
+			 <a href="VendorWebpage.html">Vendors</a>
+			 <a href ="Testimonial.html"> Testimonials</a>
+			  <a href="login.html">Login</a>
+			 <a href="registration form.html">SignUp</a>
+			 <a href="payment.html">Payments</a>
+			 <a href="inquiryfoam.html">Inquiry</a>
+	</div>
+ 
+  </header>
+    
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="Images/a1.jpg" width="100%">
+
+</div>
+
+<div class="mySlides fade">
+
+  <img src="Images/aa.jpg"  width="100%">
+
+</div>
+
+<div class="mySlides fade">
+
+  <img src="Images/bb.jpg"  width="100%">
+
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+  
+  
+    <div class="about-container">
+      
+      <h1>Dream Day Designers About Us</h1>
+      <div class="description">
+        <h2>Who We Are.....
+          
+        </h2>
+		<p>Before two hearts unite in celebration, a lot goes into preparations. 
+		Before the love is declared in public, there are many defining moments of choosing and picking. We at Dream Day Designers will create the dream wedding you have always wished for, without a single detail missing.
+
+It’s not easy turning your dream wedding into a reality.
+ With today’s hectic lifestyle, many couples and their families do not have time for the detailed planning and work a beautiful wedding of their dream.
+
+We at Dream Day Designers, as the pioneers in Sri Lanka wedding planning work together with you at any stage of the planning process to ensure that your wedding is planned to a perfect, totally enjoyable, stress free and memorable one.
+
+ After all, it is your wedding. We are there to help you – and to make your day perfect.</P>
+        
+      </div>
+
+      
+<div>
+      <h2 class="our-team-heading">Our Team</h2>
+
+      <div class="our-team">
+        <div class="team-member">
+          <img src="Images/gg.jpg" alt="" />
+          <div class="designation">
+            <strong>MORIN GUNATHILAKA</strong> (Lead Designer and Owner)
+			
+          </div>
+        </div>
+
+        <div class="team-member">
+          <img src="Images/ii.jpg" alt="" />
+          <div class="designation">
+            <strong>MADHAWEE MALHOTHRA</strong> (Senior Leader planner)
+          </div>
+        </div>
+
+        <div class="team-member">
+          <img src="Images/hh.jpg" alt="" />
+          <div class="designation">
+            <strong>JANAKA MAWELLA</strong> (Financial Manager)
+          </div>
+        </div>
+
+        <div class="team-member">
+          <img src="Images/jj.jpg" alt="" />
+          <div class="designation">
+            <strong>SUPUN MADUWANTHA</strong> (Office Manager)
+			
+          </div>
+        </div>
+      </div>
+
+      <div class="our-mission">
+        <img class="quote-icon" src="images/quote-icon.png" alt="" />
+        <p>Our mission is to provide the best services to our clients.</p>
+      </div>
+    </div>
+	<p><b>MORIN GUNATHILAKA(Lead Designer And Owner)</b>-I always love planning pretty parties as a child,I would set the dinner table just so adding my special touch with a
+ bouquet of fresh flower from our garden.
+ With over 10 yraers of wedding planning experience it is safe to save wedding are very important part of my lifestyle
+ With a background in the arts,wedding design brings an immence creative fulfilment to my life.</P>
+ <br>
+ <p><b>MADHAWEE MALHOTHRA(Senior Lead Designer)</b>-A warm smile and a nod is what it all start with.Questionning and listening,Madhwee gets to know each couple.He has the intuitive instinct to 
+seeing and understanding the dream,each couple has,for their special day.Madhwee hopes every Dream Day Designers planner client
+remembers him for beign proffessional,efficient,resourceful and fun to work with to make it a most memorable day of their lives.</P>
+<br>
+<p><b>JANAKA MAWELLA(Financial Manager)</b>-With over 10 years experience in financial services.Creating and managing budgets for wedding and eventss ensuring that experience align with revenue projection.
+Janaka is responsible for overseeing an organizations financial health and making strategic
+decision to ensure its financial success.</P>
+<br>
+<p><b>SUPUN MADUWANTHA(Office Manager)</b>-My personal motto is "don't give up even when things get ruff!".Supun often handle administrative tasks such as managing schedules,coordinating 
+ meeting and handling corrrespondence.</p>
+ <footer>
+
+<h2>Dream Day Designers</h2>
+<br><br>
+        <div class="social-icons">
+            <a href="#" class="icon facebook">Facebook</a>
+            <a href="#" class="icon twitter">Twitter</a>
+            <a href="#" class="icon instagram">Instagram</a>
+            <a href="#" class="icon linkedin">LinkedIn</a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+
+
+  </body>
+
+
+</html>

@@ -1,0 +1,42 @@
+			
+			
+body{
+	 background:url("Images/payimage.jpg");
+
+}
+			#frame{
+				width:500px;
+			;
+				padding:2px;
+				background:#cce7e8;
+				box-shadow: 0 20px 70px 0 black;
+			}
+			#confirm{
+				background-color: black;
+				color: white;
+				padding: 2px 5px;
+				width: 75px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+			}
+			#cancel{
+				background-color: white;
+				border:1px solid black;
+				color: black;
+				padding: 2px 5px;
+				width: 75px;
+				text-align: center;
+				text-decoration: none;
+				
+				display: inline-block;
+			}
+			.text{
+				width:450px;
+				}
+			.text1{
+				width:200px
+				}
+			.form{
+				padding:20px;
+				}

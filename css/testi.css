@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"montserrat",sans-serif;
+}
+.testimonials{
+	padding:40px 0;
+	background:url(Images/term4.jpg);
+
+	text-align:center;
+	
+    background-attachment:fixed;
+}
+.inner{
+	max-width:1200px;
+	margin:auto;
+	overflow:hidden;
+	padding:0 20px;
+}
+.border{
+	width:160px;
+	height:5px;
+	background:#6ab04c;
+	margin:26px auto;
+	
+}
+.row{
+
+	flex-wrap:wrap;
+	justify-content:center;
+
+  display:flex;
+}
+.col{
+	box-sizing:border-box;
+	  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.testimonial{
+	background:	#E5E8E8;
+	padding:50px;
+	
+}
+.testimonial img{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+
+}
+.name{
+	font-size:20px;
+	text-transform:uppercase;
+	margin:20px 0;
+}
+.stars{
+	color:#F4D03F;
+	margin-bottom:20px;
+}
+h1{
+	font-size:50px;
+}
+p{
+	font-size:18px;
+	font-family:"Times New Roman",sans-serif;
+}

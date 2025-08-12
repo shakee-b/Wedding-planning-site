@@ -1,0 +1,56 @@
+/* Reset some default styles */
+body, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the social media icons */
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+/* Define specific styles for each social media icon */
+.icon.facebook::before {
+    content: "\f09a"; /* Unicode for Facebook icon */
+}
+
+.icon.twitter::before {
+    content: "\f099"; /* Unicode for Twitter icon */
+}
+
+.icon.instagram::before {
+    content: "\f16d"; /* Unicode for Instagram icon */
+}
+
+.icon.linkedin::before {
+    content: "\f0e1"; /* Unicode for LinkedIn icon */
+}
+
+/* Add icon fonts - you may need to include these fonts or use a library like Font Awesome */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2');
+}
+
+.icon::before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-right: 5px;
+}
+h2{
+	margin:auto;
+	font-size:30px;
+}

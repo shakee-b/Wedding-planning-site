@@ -1,0 +1,96 @@
+
+
+<html>
+	<head>
+		<title>Payment</title>
+		<link rel="stylesheet" href="css/payment.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/foo.css">
+		<script>
+		
+		function CheckForm()
+		{
+			var card = document.getElementById("card").value;
+			var cvv = document.getElementById("cvv").value;
+		
+			
+			if(card.length < 16 || cvv.length > 4 || cvv.length < 3)
+			{
+				alert("invalid card number or cvv");
+				window.location.href='payment.html';
+				return false;
+			}
+		}
+		
+		
+		
+		
+		</script>
+
+	</head>
+	
+	<body>
+   <header>
+    
+    <div class="logo">
+      <img src="Images/15.jpg" alt="Wedding Logo">
+    </div>
+   
+   <div class ="navigation">
+		     <div class="navigation-items">
+	 <a href="home.html"> Home</a>
+			 <a href="aboutus.html">About us</a>
+			 <a href="Our Services.html">Our services</a>
+			 <a href="gallery.html">Gallery</a>
+			 <a href="VendorWebpage.html">Vendors</a>
+			 <a href ="Testimonial.html"> Testimonials</a>
+			  <a href="index2.php">Login</a>
+			 <a href="registration form.html">SignUp</a>
+			 <a href="payment.html">Payments</a>
+			 <a href="inquiryfoam.html">Inquiry</a>
+	</div>
+ 
+  </header>
+		<div id="frame" style="margin: auto;">
+		<center>
+		payment method
+		</center>
+		<hr size="1" color="#000000"/>
+		<form action="payment.php" method="post" class="form" >
+		Enter the name:<br/><br/>
+		<input type="text" name="name"><br/><br/>
+		Choose your payment method <br/><br/>
+		<div class="method">
+		Credit card/Debit card<input type="radio" name="method" value="card" border="background.jpg"/>
+		
+		Paypal<input type="radio" name="method" value="paypal"/><br>
+		<img src="Images/credit card.png" width="200" height"100"/>
+		<img src="Images/paypalpay.png" width="200" height"100"/>
+		</div><br><br>
+		Card Number<br/><br/>
+		<input type="text" name="Cnumber" class="text" id="card" /><br/></br><br>
+		Expiration Date
+		CVV<br><br>
+		<input type="date" name="Edate" class="text1" id="edate"/>
+		<input type="text" name="cw" class="text1" id="cvv"/><br/><br/><br>
+		Card Holder's Name<br/><br/>
+		<input type="text" name="CHname" class="text"/><br/><br/><br/>
+		<center>
+		<input type="submit" value="Confirm" id="confirm" name="confirm" />
+		<input type="reset" value="Cancel" id="cancel" />
+		</center>
+		</div>
+		<footer>
+
+<h2>Dream Day Designers</h2>
+<br><br>
+        <div class="social-icons">
+            <a href="#" class="icon facebook">Facebook</a>
+            <a href="#" class="icon twitter">Twitter</a>
+            <a href="#" class="icon instagram">Instagram</a>
+            <a href="#" class="icon linkedin">LinkedIn</a>
+        </div>
+    </footer>
+	</body>
+</html>
+		

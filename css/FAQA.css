@@ -1,0 +1,36 @@
+body{
+	background-image:url('Images/planner.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+  h1{
+	font-size:2em;
+	font-weight:700;
+	text-transform:uppercase;
+	line-height:40px;
+	letter-spacing:1px;
+	font-family: system-ui;
+	text-align:center;
+  }
+  
+  .faq-container {
+            max-width: 600px;
+            margin: 0 auto;
+			box-shadow:0 2px 16px;
+			color:rgba(46, 46, 31, 0.8);
+		    
+        }
+
+
+    .faq-question {
+            background-color: #f4f4f4;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+    .faq-answer {
+		    background-color:#ccccb3;
+            display: none;
+            padding: 10px;
+        }
